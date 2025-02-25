@@ -12,3 +12,17 @@ Probability distribution (of all possibilities) is given by p(x1) = [0.58, 0.42]
 
 Probability value of x1 = meow = 0.58
 or x1 = woof = 0.58
+
+## Sampling from a Joint Probability Distribution
+
+Some creations/combinations are more probable than others. Some are equally probable. Which to choose?
+
+**Sampling** from a joint probability distribution involves generating a random sample that reflects the combined probabilites of multiple events occurring together.
+
+There are many sampling methods.
+
+- Inverse Transform Sampling
+
+    1. Compute the cumulative distribution function (CDF)
+    2. Generate a random number between 0 and 1
+    3. Look up the corresponding possibility to that random number
